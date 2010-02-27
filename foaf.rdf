@@ -14,8 +14,8 @@
   </rdf:Description>
 
   <foaf:PersonalProfileDocument rdf:about="">
-    <foaf:maker rdf:nodeID="#me" />
-    <foaf:primaryTopic rdf:nodeID="#me" />
+    <foaf:maker rdf:resource="#me" />
+    <foaf:primaryTopic rdf:resource="#me" />
   </foaf:PersonalProfileDocument>
 
   <foaf:Person rdf:ID="me">
