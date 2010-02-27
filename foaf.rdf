@@ -52,6 +52,15 @@
     <foaf:workplaceHomepage rdf:resource="https://www.thecarbonhub.com/" />
     <foaf:workplaceHomepage rdf:resource="http://xeriom.net/" />
 
+    <foaf:currentProject rdf:resource="#foaf" />
+    <foaf:currentProject rdf:resource="#caniusehtml5.com" />
+    <foaf:currentProject rdf:resource="#london2" />
+    <foaf:currentProject rdf:resource="#xeriom-scripts" />
+    <foaf:currentProject rdf:resource="#smqueue" />
+    <foaf:currentProject rdf:resource="#htmldoc" />
+    <foaf:currentProject rdf:resource="#craigw.github.com" />
+    <foaf:currentProject rdf:resource="#payment_processing" />
+    
     <foaf:pastProject rdf:resource="#metrotwin" />
     <foaf:pastProject rdf:resource="#greatbritons" />
     <foaf:pastProject rdf:resource="#opportunity_iframe" />
@@ -69,6 +78,39 @@
     <foaf:pastProject rdf:resource="#photo_tool" />
     <foaf:pastProject rdf:resource="#orkell" />
     <foaf:pastProject rdf:resource="#golfgrid" />
+    <foaf:pastProject rdf:resource="#activecouch" />
+    <foaf:pastProject rdf:resource="#irc-server.js" />
+    <foaf:pastProject rdf:resource="#spectacular" />
+    <foaf:pastProject rdf:resource="#irc-client.js" />
+    <foaf:pastProject rdf:resource="#email.js" />
+    <foaf:pastProject rdf:resource="#node-smtp" />
+    <foaf:pastProject rdf:resource="#jira" />
+    <foaf:pastProject rdf:resource="#dns-zonefile" />
+    <foaf:pastProject rdf:resource="#opencv-toys" />
+    <foaf:pastProject rdf:resource="#attachment_fu" />
+    <foaf:pastProject rdf:resource="#xeriom-nagios-snmp-agents" />
+    <foaf:pastProject rdf:resource="#http_tools" />
+    <foaf:pastProject rdf:resource="#form_builder" />
+    <foaf:pastProject rdf:resource="#xeriom-nagios-checks" />
+    <foaf:pastProject rdf:resource="#porox" />
+    <foaf:pastProject rdf:resource="#active_service" />
+    <foaf:pastProject rdf:resource="#clirc" />
+    <foaf:pastProject rdf:resource="#snmp-tools" />
+    <foaf:pastProject rdf:resource="#smarty-cake" />
+    <foaf:pastProject rdf:resource="#callback_after_commit" />
+    <foaf:pastProject rdf:resource="#expand-url-service" />
+    <foaf:pastProject rdf:resource="#cache-access" />
+    <foaf:pastProject rdf:resource="#gtweeter" />
+    <foaf:pastProject rdf:resource="#email-spec" />
+    <foaf:pastProject rdf:resource="#geocoding-service" />
+    <foaf:pastProject rdf:resource="#spam-classification-service" />
+    <foaf:pastProject rdf:resource="#cruisecontrol.rb" />
+    <foaf:pastProject rdf:resource="#feedback" />
+    <foaf:pastProject rdf:resource="#simple_deployment" />
+    <foaf:pastProject rdf:resource="#sprinkles" />
+    <foaf:pastProject rdf:resource="#bbc_podcast_notifier" />
+    <foaf:pastProject rdf:resource="#cached_asset_names" />
+    <foaf:pastProject rdf:resource="#rspec-on-rails-matchers" />
 
     <foaf:interest rdf:resource="http://dbpedia.org/page/Software_development" />
     <foaf:interest rdf:resource="http://dbpedia.org/resource/World_Wide_Web" />
@@ -272,5 +314,245 @@
     <dc:description>An engine for finding and reserving tee times at golf clubs around the UK.</dc:description>
     <ev:startdate>2006-09</ev:startdate>
     <ev:enddate>2006-11</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="foaf">
+    <foaf:name>foaf</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/foaf" />
+    <ev:startdate>2010-02</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="caniusehtml5.com">
+    <foaf:name>caniusehtml5.com</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/caniusehtml5.com" />
+    <ev:startdate>2010-02</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="london2">
+    <foaf:name>london2</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/london2" />
+    <ev:startdate>2010-02</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="xeriom-scripts">
+    <foaf:name>xeriom-scripts</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/xeriom-scripts" />
+    <ev:startdate>2009-12</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="smqueue">
+    <foaf:name>smqueue</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/smqueue" />
+    <ev:startdate>2009-01</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="activecouch">
+    <foaf:name>activecouch</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/activecouch" />
+    <ev:startdate>2009-01</ev:startdate>
+    <ev:enddate>2010-02</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="irc-server.js">
+    <foaf:name>irc-server.js</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/irc-server.js" />
+    <ev:startdate>2010-01</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="spectacular">
+    <foaf:name>spectacular</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/spectacular" />
+    <ev:startdate>2010-01</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="irc-client.js">
+    <foaf:name>irc-client.js</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/irc-client.js" />
+    <ev:startdate>2010-01</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="email.js">
+    <foaf:name>email.js</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/email.js" />
+    <ev:startdate>2010-01</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="node-smtp">
+    <foaf:name>node-smtp</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/node-smtp" />
+    <ev:startdate>2009-01-25</ev:startdate>
+    <ev:startdate>2009-01-31</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="jira">
+    <foaf:name>jira</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/jira" />
+    <dc:description>Patched lib/jira/ext/hash.rb to provide consistent ordering of query string parameters in Hash#to_query.</dc:description>
+    <ev:startdate>2010-01-31</ev:startdate>
+    <ev:enddate>2010-01-31</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="dns-zonefile">
+    <foaf:name>dns-zonefile</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/dns-zonefile" />
+    <dc:description>A library to read and manipulate DNS zonefiles.</dc:description>
+    <ev:startdate>2009-10-18</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="opencv-toys">
+    <foaf:name>opencv-toys</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/opencv-toys" />
+    <ev:startdate>2010-01-13</ev:startdate>
+    <ev:enddate>2010-01-13</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="attachment_fu">
+    <foaf:name>attachment_fu</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/attachment_fu" />
+    <dc:description>Added support for the ! flag to the ImageScienceProcessor based on instructions provided by Andy Croll.</dc:description>
+    <ev:startdate>2009-</ev:startdate>
+    <rdfs:seeAlso rdf:resource="http://andycroll.com/writing/cropped-thumbnails-in-attachment-fu-using-imagescience" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="htmldoc">
+    <foaf:name>htmldoc</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/htmldoc" />
+    <dc:description>I'm the maintainer for the HTMLDoc rubygem.</dc:description>
+    <ev:startdate>2009-05-18</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="xeriom-nagios-snmp-agents">
+    <foaf:name>xeriom-nagios-snmp-agents</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/xeriom-nagios-snmp-agents" />
+    <dc:description>A bunch of SNMP agents that extent SNMP to allow me to monitor stuff like Xen VM configuration files.</dc:description>
+    <ev:startdate>2009-11</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="http_tools">
+    <foaf:name>http_tools</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/http_tools" />
+    <dc:description>Tools to profile and debug HTTP related things (also, an excuse for me to play with Erlang)</dc:description>
+    <ev:startdate>2009-11-16</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="form_builder">
+    <foaf:name>form_builder</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/form_builder" />
+    <dc:description>Provide a consistent, easy to style way of marking up HTML forms in a Rails application.</dc:description>
+    <ev:startdate>2009-04-02</ev:startdate>
+    <ev:startdate>2009-06-18</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="xeriom-nagios-checks">
+    <foaf:name>xeriom-nagios-checks</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/xeriom-nagios-checks" />
+    <dc:description>A bunch of Nagios checks that I find useful.</dc:description>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="porox">
+    <foaf:name>porox</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/porox" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="payment_processing">
+    <foaf:name>payment_processing</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/payment_processing" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="active_service">
+    <foaf:name>active_service</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/active_service" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="clirc">
+    <foaf:name>clirc</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/clirc" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="snmp-tools">
+    <foaf:name>snmp-tools</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/snmp-tools" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="smarty-cake">
+    <foaf:name>smarty-cake</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/smarty-cake" />
+    <dc:description>Making Cake and Smarty play nicely together.</dc:description>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="craigw.github.com">
+    <foaf:name>craigw.github.com</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/craigw.github.com" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="callback_after_commit">
+    <foaf:name>callback_after_commit</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/callback_after_commit" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="expand-url-service">
+    <foaf:name>expand-url-service</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/expand-url-service" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="cache-access">
+    <foaf:name>cache-access</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/cache-access" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="gtweeter">
+    <foaf:name>gtweeter</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/gtweeter" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="email-spec">
+    <foaf:name>email-spec</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/email-spec" />
+    <dc:description>A tiny patch to make email-spec run on my machine. See http://github.com/craigw/email-spec/commit/dadcc1ae1d3da5b7c493fa75046212581d5746c9</dc:description>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="geocoding-service">
+    <foaf:name>geocoding-service</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/geocoding-service" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="spam-classification-service">
+    <foaf:name>spam-classification-service</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/spam-classification-service" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="cruisecontrol.rb">
+    <foaf:name>cruisecontrol.rb</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/cruisecontrol.rb" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="feedback">
+    <foaf:name>feedback</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/feedback" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="simple_deployment">
+    <foaf:name>simple_deployment</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/simple_deployment" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="sprinkles">
+    <foaf:name>sprinkles</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/sprinkles" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="bbc_podcast_notifier">
+    <foaf:name>bbc_podcast_notifier</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/bbc_podcast_notifier" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="cached_asset_names">
+    <foaf:name>cached_asset_names</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/cached_asset_names" />
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="rspec-on-rails-matchers">
+    <foaf:name>rspec-on-rails-matchers</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/rspec-on-rails-matchers" />
   </foaf:Project>
 </rdf:RDF>
