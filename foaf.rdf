@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wot="http://xmlns.com/wot/0.1/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ev="http://purl.org/rss/1.0/modules/event/">
+
+  <rdf:Description rdf:about="">
+    <wot:assurance rdf:resource="http://barkingiguana.com/~craig/foaf.rdf.asc" />
+  </rdf:Description>
+
+  <foaf:PersonalProfileDocument rdf:about="">
+    <foaf:maker rdf:nodeID="#me" />
+    <foaf:primaryTopic rdf:nodeID="#me" />
+  </foaf:PersonalProfileDocument>
+
+  <foaf:Person rdf:ID="me">
+    <foaf:name>Craig Webster</foaf:name>
+    <foaf:givenname>Craig</foaf:givenname>
+    <foaf:family_name>Webster</foaf:family_name>
+    <foaf:img rdf:resource="http://barkingiguana.com/~craig/me.jpg" />
+    <foaf:based_near rdf:resource="http://sws.geonames.org/2643743/" />
+    <dc:description>
+      I'm a software engineer living in London. My primary tool is Ruby although sometimes I use Erlang, JavaScript, PHP or whatever else happens to be appropriate.
+      In my spare time I go rock climbing, snowboarding, skating, I play with my camera and I code.
+    </dc:description>
+    <foaf:gender>male</foaf:gender>
+    <foaf:geekcode>
+      Version: 3.1
+      GCS d-(+) s++: a- C++(++++)$ UL++++$ P(+)>++ L+++$>++++
+      !E--(-)>++$ W+++$ !N !o? K-()? w(-) !O M+(+)$>++ !V- !PS? !PE?
+      Y+()>$ PGP+(++)>++ t(+) 5+(++) !X !R tv--(-)?>-- b+++(++++)>++++
+      DI+(+++) D+ G-() e++>++++ h(+) r++>+++ y+ 
+    </foaf:geekcode>
+
+    <foaf:jabberID>craig@xeriom.net</foaf:jabberID>
+
+    <foaf:mbox>craig@barkingiguana.com</foaf:mbox>
+    <foaf:mbox>craig@xeriom.net</foaf:mbox>
+    <foaf:mbox>craig.webster@bcs.org.uk</foaf:mbox>
+
+    <foaf:homepage rdf:resource="http://barkingiguana.com/~craig" />
+    <foaf:openid rdf:resource="http://barkingiguana.com/~craig" />
+    <foaf:weblog rdf:resource="http://barkingiguana.com/" />
+
+    <wot:pubkeyAddress rdf:resource="http://barkingiguana.com/~craig/key.asc" />
+
+    <foaf:workplaceHomepage rdf:resource="https://www.thecarbonhub.com/" />
+    <foaf:workplaceHomepage rdf:resource="http://xeriom.net/" />
+
+    <foaf:pastProject rdf:resource="#metrotwin" />
+    <foaf:pastProject rdf:resource="#greatbritons" />
+    <foaf:pastProject rdf:resource="#opportunity_iframe" />
+    <foaf:pastProject rdf:resource="#grants_uk" />
+    <foaf:pastProject rdf:resource="#grants_hk" />
+    <foaf:pastProject rdf:resource="#grants_in" />
+    <foaf:pastProject rdf:resource="#grants_sa" />
+    <foaf:pastProject rdf:resource="#grants_ua" />
+    <foaf:pastProject rdf:resource="#imagerunner" />
+    <foaf:pastProject rdf:resource="#thousand_days" />
+    <foaf:pastProject rdf:resource="#winanathlete" />
+    <foaf:pastProject rdf:resource="#comic_relief" />
+    <foaf:pastProject rdf:resource="#visualising_radio" />
+    <foaf:pastProject rdf:resource="#pit" />
+    <foaf:pastProject rdf:resource="#photo_tool" />
+    <foaf:pastProject rdf:resource="#orkell" />
+    <foaf:pastProject rdf:resource="#golfgrid" />
+
+    <foaf:interest rdf:resource="http://dbpedia.org/page/Software_development" />
+    <foaf:interest rdf:resource="http://dbpedia.org/resource/World_Wide_Web" />
+    <foaf:interest rdf:resource="http://dbpedia.org/resource/Ruby_%28programming_language%29" />
+    <foaf:interest rdf:resource="http://dbpedia.org/resource/Music" />
+    <foaf:interest rdf:resource="http://dbpedia.org/resource/Food" />
+    <foaf:interest rdf:resource="http://dbpedia.org/resource/Wine" />
+    <foaf:interest rdf:resource="http://dbpedia.org/resource/Beer" />
+    <foaf:interest rdf:resource="http://dbpedia.org/resource/Pizza" />
+    <foaf:interest rdf:resource="http://dbpedia.org/resource/Climbing" />
+    <foaf:interest rdf:resource="http://dbpedia.org/resource/Snowboarding" />
+
+    <foaf:knows rdf:resource="#yves" />
+    <foaf:knows rdf:resource="#patrick" />
+    <foaf:knows rdf:resource="#nick" />
+    <foaf:knows rdf:resource="#duncan" />
+
+    <owl:sameAs rdf:resource="http://last.fm/user/GigaHertz" />
+    <owl:sameAs rdf:resource="http://www.facebook.com/craig.r.webster" />
+    <owl:sameAs rdf:resource="http://twitter.com/craigwebster" />
+  </foaf:Person>
+
+  <!-- Other people -->
+
+  <foaf:Person rdf:ID="yves">
+    <rdfs:seeAlso rdf:resource="http://moustaki.org/foaf.rdf#moustaki" />
+  </foaf:Person>
+
+  <foaf:Person rdf:ID="patrick">
+    <rdfs:seeAlso rdf:resource="http://metade.org/foaf.rdf#me" />
+  </foaf:Person>
+
+  <foaf:Person rdf:ID="nick">
+    <rdfs:seeAlso rdf:resource="http://www.aelius.com/njh/foaf.rdf#me" />
+  </foaf:Person>
+
+  <foaf:Person rdf:ID="duncan">
+    <rdfs:seeAlso rdf:resource="http://foafbuilder.qdos.com/people/whomwah.com/foaf.rdf#me" />
+  </foaf:Person>
+
+  <!-- Projects -->
+
+  <foaf:Project rdf:ID="metrotwin">
+    <foaf:name>Metrotwin</foaf:name>
+    <foaf:homepage rdf:resource="http://metrotwin.com/" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-e7sdhg68cmktrew22923ufe962.jpg" />
+    <dc:description>Twinning places in New York and London to encourage exploration of the other city.</dc:description>
+    <ev:startdate>2009-03</ev:startdate>
+    <ev:enddate>2010-02-28</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="greatbritons">
+    <foaf:name>Great Britons</foaf:name>
+    <foaf:homepage rdf:resource="http://greatbritons.ba.com/" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-eq2mwshu4ca9rhjpm4exjpc5g8.jpg" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-1gd296afabka4fifkux4te49ar.jpg" />
+    <dc:description>Awarding flights to help talented individuals and groups that exhibit the values associated with Olympics achieve their best.</dc:description>
+    <ev:startdate>2009-03</ev:startdate>
+    <ev:enddate>2010-02-28</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="opportunity_iframe">
+    <foaf:name>World of Opportunity</foaf:name>
+    <foaf:homepage rdf:resource="http://ba.com/opportunity" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-gxn117pipq48fct1pbeks8mg3e.jpg" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-n9rmidcwyyhrdbmxsy67134iph.jpg" />
+    <dc:description>Find and buy flights to destinations that have events relevant to your interests.</dc:description>
+    <ev:startdate>2009</ev:startdate>
+    <ev:enddate>2010-02-28</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="grants_uk">
+    <foaf:name>Business Grants (United Kingdom)</foaf:name>
+    <foaf:homepage rdf:resource="http://uk.grants.ba.com/" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-chsu5fe1defdnsrq7tyxef3dhu.jpg" />
+    <dc:description>Awarding flights to SME's based in the United Kingdom to prove the value of face-to-face communication.</dc:description>
+    <ev:startdate>2009</ev:startdate>
+    <ev:enddate>2010-02-28</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="grants_hk">
+    <foaf:name>Business Grants (Hong Kong)</foaf:name>
+    <foaf:homepage rdf:resource="http://hk.grants.ba.com/" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-dwj4gj71rqywd1qnrf6n1kiphc.jpg" />
+    <dc:description>Awarding flights to SME's based in Hong Kong to prove the value of face-to-face communication.</dc:description>
+    <ev:startdate>2009</ev:startdate>
+    <ev:enddate>2010-02-28</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="grants_in">
+    <foaf:name>Business Grants (India)</foaf:name>
+    <foaf:homepage rdf:resource="http://ind.grants.ba.com/" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-te2awt6rg27wempabeuceyfgat.jpg" />
+    <dc:description>Awarding flights to SME's based in India to prove the value of face-to-face communication.</dc:description>
+    <ev:startdate>2009</ev:startdate>
+    <ev:enddate>2010-02-28</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="grants_sa">
+    <foaf:name>Business Grants (South Africa)</foaf:name>
+    <foaf:homepage rdf:resource="http://saf.grants.ba.com/" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-8aa46k4kjw9mty6mbyughiwdeu.jpg" />
+    <dc:description>Awarding flights to SME's based in South Africa to prove the value of face-to-face communication.</dc:description>
+    <ev:startdate>2009</ev:startdate>
+    <ev:enddate>2010-02-28</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="grants_ua">
+    <foaf:name>Business Grants (United Arab Emirates)</foaf:name>
+    <foaf:homepage rdf:resource="http://uae.grants.ba.com/" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-ncjxhuf7ehrjektagpgi29a8r4.jpg" />
+    <dc:description>Awarding flights to SME's based in the United Arab Emirates to prove the value of face-to-face communication.</dc:description>
+    <ev:startdate>2009</ev:startdate>
+    <ev:enddate>2010-02-28</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="imagerunner">
+    <foaf:name>Canon Image Runner</foaf:name>
+    <foaf:homepage rdf:resource="http://www.canon.se/imagerunner_advance/" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100226-g88iuf8xyeuwnqh9tfgnfkjy9x.jpg" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100226-r9hrg8bd49ybm6emicwx4rc5e5.jpg" />
+    <dc:description>Created a simple script to email details sent from a Flash client to selected Canon personnel.</dc:description>
+    <ev:startdate>2010-02-28</ev:startdate>
+    <ev:enddate>2010-02-29</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="thousand_days">
+    <foaf:name>1000 Days until the Olympics</foaf:name>
+    <foaf:homepage rdf:resource="http://1000days.ba.com/" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-gn3temuaqk8qex6ijkk288mmqj.jpg" />
+    <dc:description>Script that gathers details and adds them to a database.</dc:description>
+    <ev:startdate>2009-10</ev:startdate>
+    <ev:enddate>2009-11</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="winanathlete">
+    <foaf:name>Win An Athlete</foaf:name>
+    <foaf:homepage rdf:resource="http://winanathlete.ba.com/" />
+    <dc:description>Script that gathers details and adds them to a database. Similar to the 1000 days project but the winner won a day with Denise Lewis for the organisation of their choice.</dc:description>
+    <ev:startdate>2009-10</ev:startdate>
+    <ev:enddate>2009-11</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="comic_relief">
+    <foaf:name>Grants Management System</foaf:name>
+    <foaf:homepage rdf:resource="http://gms.comicrelief.com/" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-jutcqqxiykkdys1cpt2a8q2rhx.jpg" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-gx19qh6bfqktycy6ftdefc7mbw.jpg" />
+    <dc:description>Maintained newly launched site while development team were on holiday. Fixed several small bugs.</dc:description>
+    <ev:startdate>2009</ev:startdate>
+    <ev:enddate>2010-02-28</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="visualising_radio">
+    <foaf:name>Visualising Radio (Phase 1)</foaf:name>
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-8453s2haxqej1ns1pgfpt6wafj.jpg" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-n37kmm4mhe3he86cc362natn5h.jpg" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-1ejgk5qiwxe6n9u86mpatear63.jpg" />
+    <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/blogs/radiolabs/2008/01/visualising_radio.shtml#entry-22093" />
+    <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/blogs/radiolabs/2009/01/visual_radio_launches.shtml#entry-52455" />
+    <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/blogs/radiolabs/2009/01/visual_radio_phase_1_final_tho.shtml#entry-54630" />
+    <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/blogs/radiolabs/2009/01/how_visual_radio_works.shtml#entry-53420" />
+    <rdfs:seeAlso rdf:resource="http://www.bbc.co.uk/blogs/radiolabs/2009/01/visualising_radio_delivering_v.shtml#entry-53752" />
+    <rdfs:seeAlso rdf:resource="http://whomwah.com/2009/01/12/visualising-radio-pushing-not-pulling/#port-907" />
+    <rdfs:seeAlso rdf:resource="http://www.fridayforward.com/2009/01/12/tv-on-the-radio/" />
+    <dc:description>A trial service for the BBC - adding at-a-glance information to your favourite radio programmes.</dc:description>
+    <ev:startdate>2008-11</ev:startdate>
+    <ev:enddate>2009-01</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="pit">
+    <foaf:name>Programme Information Tool</foaf:name>
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-8xfeeb21j3iwe7qbdne9uqkx5p.jpg" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-tmu813kkj7rjpdr8jurh7y8yxc.jpg" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-fkqg1n5f9hpe53633in6hwcj1q.jpg" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-kmmtmw66g8yfcrwmh4j3whtktx.jpg" />
+    <dc:description>An editor for the BBC metadata database. Metadata for radio programmes and images for all programmes that ended up on iPlayer, BBC /programmes and some metadata that ended up on BBC /music were edited through PIT.</dc:description>
+    <ev:startdate>2007-12</ev:startdate>
+    <ev:enddate>2009-03</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="photo_tool">
+    <foaf:name>Photo Tool</foaf:name>
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-q4cdm9j3mdhd7cr3yqr7y6j41c.jpg" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-dx85qrb7gx54xmnp9mjgf2sqie.jpg" />
+    <foaf:depiction rdf:resource="http://img.skitch.com/20100225-qwcc66uphy2s24xrp457usw83b.jpg" />
+    <dc:description>Fixed some bugs in an internal tool used by BBC staff to upload pictures to the various websites under http://bbc.co.uk/radio/</dc:description>
+    <ev:startdate>2007-11</ev:startdate>
+    <ev:enddate>2007-12</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="orkell">
+    <foaf:name>Orkell CPD Platform</foaf:name>
+    <dc:description>A platform to create and licence CPD courses to institutions and orgnaisations.</dc:description>
+    <ev:startdate>2007-01</ev:startdate>
+    <ev:enddate>2007-11</ev:enddate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="golfgrid">
+    <foaf:name>Golf Grid</foaf:name>
+    <dc:description>An engine for finding and reserving tee times at golf clubs around the UK.</dc:description>
+    <ev:startdate>2006-09</ev:startdate>
+    <ev:enddate>2006-11</ev:enddate>
+  </foaf:Project>
+</rdf:RDF>
