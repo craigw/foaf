@@ -60,7 +60,9 @@
     <foaf:currentProject rdf:resource="#htmldoc" />
     <foaf:currentProject rdf:resource="#craigw.github.com" />
     <foaf:currentProject rdf:resource="#payment_processing" />
+    <foaf:currentProject rdf:resource="#nagiru" />
     
+    <foaf:pastProject rdf:resource="#carbonhub" />
     <foaf:pastProject rdf:resource="#metrotwin" />
     <foaf:pastProject rdf:resource="#greatbritons" />
     <foaf:pastProject rdf:resource="#opportunity_iframe" />
@@ -152,6 +154,23 @@
   </foaf:Person>
 
   <!-- Projects -->
+
+  <foaf:Project rdf:ID="nagiru">
+    <foaf:name>Nagiru</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/nagiru" />
+    <dc:description>Manipulating Nagios configuration using Ruby.</dc:description>
+    <ev:startdate>2010-03-25</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="carbonhub">
+    <foaf:name>Carbon Hub</foaf:name>
+    <foaf:homepage rdf:resource="http://carbon-hub.com/" />
+    <foaf:depiction rdf:resource="http://skitch.com/cwebster/n7rxr/carbon-hub-dashboard" />
+    <foaf:depiction rdf:resource="http://skitch.com/cwebster/n7rxq/carbon-hub-graphs" />
+    <dc:description>A web-based carbon reduction service to help organisations implement carbon and cost-saving programs.</dc:description>
+    <ev:startdate>2010-03-01</ev:startdate>
+    <ev:enddate>2010-04-08</ev:enddate>
+  </foaf:Project>
 
   <foaf:Project rdf:ID="metrotwin">
     <foaf:name>Metrotwin</foaf:name>
