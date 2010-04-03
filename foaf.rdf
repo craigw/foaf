@@ -61,6 +61,7 @@
     <foaf:currentProject rdf:resource="#craigw.github.com" />
     <foaf:currentProject rdf:resource="#payment_processing" />
     <foaf:currentProject rdf:resource="#nagiru" />
+    <foaf:currentProject rdf:resource="#natter" />
     
     <foaf:pastProject rdf:resource="#carbonhub" />
     <foaf:pastProject rdf:resource="#metrotwin" />
@@ -160,6 +161,14 @@
     <foaf:homepage rdf:resource="http://github.com/craigw/nagiru" />
     <dc:description>Manipulating Nagios configuration using Ruby.</dc:description>
     <ev:startdate>2010-03-25</ev:startdate>
+  </foaf:Project>
+
+
+  <foaf:Project rdf:ID="natter">
+    <foaf:name>Natter</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/natter" />
+    <dc:description>A transport-agnostic bot framework.</dc:description>
+    <ev:startdate>2009-01-04</ev:startdate>
   </foaf:Project>
 
   <foaf:Project rdf:ID="carbonhub">
