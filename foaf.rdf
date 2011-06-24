@@ -138,26 +138,25 @@
     <owl:sameAs rdf:resource="http://www.facebook.com/craig.r.webster" />
     <owl:sameAs rdf:resource="http://twitter.com/craigwebster" />
     <owl:sameAs rdf:resource="http://runkeeper.com/user/craigwebster" />
-
-    <rdfs:seeAlso rdf:resource="http://corporate.picklive.com/fame#craigwebster" />
+    <owl:sameAs rdf:resource="http://corporate.picklive.com/fame#craigwebster" />
   </foaf:Person>
 
   <!-- Other people -->
 
   <foaf:Person rdf:ID="yves">
-    <rdfs:seeAlso rdf:resource="http://moustaki.org/foaf.rdf#moustaki" />
+    <owl:sameAs rdf:resource="http://moustaki.org/foaf.rdf#moustaki" />
   </foaf:Person>
 
   <foaf:Person rdf:ID="patrick">
-    <rdfs:seeAlso rdf:resource="http://metade.org/foaf.rdf#me" />
+    <owl:sameAs rdf:resource="http://metade.org/foaf.rdf#me" />
   </foaf:Person>
 
   <foaf:Person rdf:ID="nick">
-    <rdfs:seeAlso rdf:resource="http://www.aelius.com/njh/foaf.rdf#me" />
+    <owl:sameAs rdf:resource="http://www.aelius.com/njh/foaf.rdf#me" />
   </foaf:Person>
 
   <foaf:Person rdf:ID="duncan">
-    <rdfs:seeAlso rdf:resource="http://foafbuilder.qdos.com/people/whomwah.com/foaf.rdf#me" />
+    <owl:sameAs rdf:resource="http://foafbuilder.qdos.com/people/whomwah.com/foaf.rdf#me" />
   </foaf:Person>
 
   <!-- Projects -->
