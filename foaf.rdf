@@ -52,17 +52,20 @@
     <foaf:workplaceHomepage rdf:resource="https://www.thecarbonhub.com/" />
     <foaf:workplaceHomepage rdf:resource="http://xeriom.net/" />
 
+    <foaf:currentProject rdf:resource="#notonthehighstreet.com" />
+    <foaf:currentProject rdf:resource="#ruck" />
     <foaf:currentProject rdf:resource="#foaf" />
     <foaf:currentProject rdf:resource="#caniusehtml5.com" />
     <foaf:currentProject rdf:resource="#london2" />
-    <foaf:currentProject rdf:resource="#xeriom-scripts" />
     <foaf:currentProject rdf:resource="#smqueue" />
     <foaf:currentProject rdf:resource="#htmldoc" />
     <foaf:currentProject rdf:resource="#craigw.github.com" />
-    <foaf:currentProject rdf:resource="#payment_processing" />
-    <foaf:currentProject rdf:resource="#nagiru" />
-    <foaf:currentProject rdf:resource="#natter" />
-    
+
+    <foaf:pastProject rdf:resource="#picklive" />
+    <foaf:pastProject rdf:resource="#xeriom-scripts" />
+    <foaf:pastProject rdf:resource="#payment_processing" />
+    <foaf:pastProject rdf:resource="#nagiru" />
+    <foaf:pastProject rdf:resource="#natter" />
     <foaf:pastProject rdf:resource="#carbonhub" />
     <foaf:pastProject rdf:resource="#metrotwin" />
     <foaf:pastProject rdf:resource="#greatbritons" />
@@ -134,6 +137,9 @@
     <owl:sameAs rdf:resource="http://last.fm/user/GigaHertz" />
     <owl:sameAs rdf:resource="http://www.facebook.com/craig.r.webster" />
     <owl:sameAs rdf:resource="http://twitter.com/craigwebster" />
+    <owl:sameAs rdf:resource="http://runkeeper.com/user/craigwebster" />
+
+    <rdfs:seeAlso rdf:resource="http://corporate.picklive.com/fame#craigwebster" />
   </foaf:Person>
 
   <!-- Other people -->
@@ -156,13 +162,34 @@
 
   <!-- Projects -->
 
+  <foaf:Project rdf:ID="notonthehighstreet.com">
+    <foaf:name>NotOnTheHighstreet.com</foaf:name>
+    <foaf:homepage rdf:resource="http://notonthehighstreet.com/" />
+    <dc:description>Helping people seek out the makers of the unusual, the inspired and just plain 'out there'</dc:description>
+    <ev:startdate>2011-06-27</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="ruck">
+    <foaf:name>Ruck</foaf:name>
+    <foaf:homepage rdf:resource="http://github.com/craigw/ruck" />
+    <dc:description>A mobile app to track and improve running performance</dc:description>
+    <ev:startdate>2011-06-10</ev:startdate>
+  </foaf:Project>
+
+  <foaf:Project rdf:ID="picklive">
+    <foaf:name>Picklive</foaf:name>
+    <foaf:homepage rdf:resource="https://picklive.com/" />
+    <dc:description>Real-time gaming</dc:description>
+    <ev:startdate>2010-04-12</ev:startdate>
+    <ev:enddate>2011-06-24</ev:enddate>
+  </foaf:Project>
+
   <foaf:Project rdf:ID="nagiru">
     <foaf:name>Nagiru</foaf:name>
     <foaf:homepage rdf:resource="http://github.com/craigw/nagiru" />
     <dc:description>Manipulating Nagios configuration using Ruby.</dc:description>
     <ev:startdate>2010-03-25</ev:startdate>
   </foaf:Project>
-
 
   <foaf:Project rdf:ID="natter">
     <foaf:name>Natter</foaf:name>
